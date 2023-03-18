@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(240, 243, 245);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.navbar .logo{
+    font-size: 30px;
+}
+.navbar .menu li{
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.navbar .menu li:hover{
+    color:rgb(42, 143, 42);
+}
+.navbar .cv{
+    font-size: 20px;
+    margin-right: 10px;
+    border: 2px solid black;
+    padding: 4px 4px;
+    cursor: pointer;
+}
+.navbar .cv:hover{
+    background-color:rgb(42, 143, 42);
+    color: white;
+    border: 1px solid rgb(42, 143, 42);
+}
+
+
+/* HOME-SECTION */
+
+.home{
+    display: flex;
+    color: black;
+    font-size: 60px;
+    font-weight: bolder;
+    position:absolute;
+    margin-top: 140px;
+    margin-left: 200px;
+}
+.home .home-contents .text-3 , .text-4 , .text-5{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.home .home-contents .text-1 span , .text-2 span , .text-3 span{
+    color: rgb(42, 143, 42);
+}
+
+.box-1{
+    height: 300px;
+    width: 300px;
+    background-color:  rgb(42, 143, 42);
+    display: flex;
+    margin-left:700px;
+    margin-top: -260px;
+}
+.box-2{
+    height: 300px;
+    width: 300px;
+    border: 4px solid black;
+    display: flex;
+    margin-left:650px;
+    margin-top: -260px;
+}
+
+.contact-me , .learn-more{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+    padding: 10px 60px;
+    margin: 20px;
+}
+
+.contact-me{
+    color: white;
+    background-color: rgb(42, 143, 42);
+    border-radius: 4px;
+}
+.contact-me:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(42, 143, 42);
+    cursor: pointer;
+
+}
+.learn-more{
+    border: 2px solid rgb(42, 143, 42);
+    border-radius: 4px;
+}
+.learn-more:hover{
+    color: white;
+    background-color: rgb(42, 143, 42);
+    cursor: pointer;
+}
+
+/* ACHIEVEMENTS */
+.bar-1{
+    height: 10px;
+    width: 120px;
+    background-color:  rgb(42, 143, 42);
+    position: absolute;
+    margin-top:300px;
+    margin-left: 250px;
+    transform: rotate(90deg);
+
+}
+.bar-2{
+    height: 10px;
+    width: 120px;
+    background-color:  rgb(42, 143, 42);
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 750px;
+    transform: rotate(90deg);
+
+}
+
+.clients{
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 250px;
+    color: rgb(42, 143, 42);
+}
+.clients p{
+    font-size: 30px;
+    color: black;
+    padding-top: 10px;
+}
+
+.projects-completion{
+    color: rgb(42, 143, 42);
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 450px;
+    margin-top: -90px;
+}
+.projects-completion p{
+    font-size: 30px;
+    color: black;
+    padding-top: 10px;
+}
+
+.review{
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 900px;
+    margin-top: -85px;
+    color: rgb(42, 143, 42);
+}
+.review p{
+    font-size: 30px;
+    color: black;
+    padding-top: 10px;
+}
+
+
+
+/* SKILLS SECTION */
+
+
+.skills header{
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(42, 143, 42);
+    margin-top: 300px;
+    border: 2px solid rgb(42, 143, 42);
+    width: fit-content;
+    padding: 10px 10px;
+}
+.skills h6{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+}
+#h6-2{
+    margin-top: 0px;
+}
+.skills h6 span{
+    color: rgb(42, 143, 42);
+}
+.skills p{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 40px;
+}
+#p-2{
+    margin-top: 0px;
+}
+.skills p span{
+    color: rgb(42 , 143, 42);
+}
+
+.html{
+    height: 50px;
+    width: 250px;
+    color: white;
+    background: linear-gradient(90deg ,rgb(42, 143, 42) 85% , white 15%);
+    border: 2px solid black;
+    display: flex;
+    margin-left: 850px;
+    margin-top: -250px;
+    font-size: 30px;
+    padding: 8px 30px;
+    border-radius: 4px;
+}
+.css{
+    height: 50px;
+    width: 250px;
+    color: white;
+    background: linear-gradient(90deg ,rgb(42, 143, 42) 70% , white 30%);
+    border: 2px solid black;
+    margin-left: 850px;
+    margin-top: 60px;
+    font-size: 30px;
+    padding: 8px 30px;
+    border-radius: 4px;
+}
+.javascript{
+    height: 50px;
+    width: 250px;
+    color: white;
+    background: linear-gradient(90deg ,rgb(42, 143, 42) 52% , white 50%);
+    border: 2px solid black;
+    margin-left: 850px;
+    margin-top: 60px;
+    font-size: 30px;
+    padding: 8px 30px;
+    border-radius: 4px;
+}
+.javascript span{
+    color:rgb(42, 143, 42) ;
+}
+.hire{
+    height: 40px;
+    width: 150px;
+    color: white;
+    background:rgb(42, 143, 42);
+    border: 2px solid rgb(42, 143, 42);
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 8px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hire:hover{
+    color:rgb(42, 143, 42);
+    background-color: white;
+    border: 2px solid rgb(42, 143, 42);
+    box-shadow: 0px 10px 20px 5px rgb(42, 143, 42);
+}
+
+
+
+/* portfolio */
+
+
+.portfolio header{
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(42, 143, 42);
+    margin-top: 300px;
+    border: 2px solid rgb(42, 143, 42);
+    width: fit-content;
+    padding: 10px 10px;
+}
+.portfolio h6{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+}
+#h6-2{
+    margin-top: 0px;
+}
+.portfolio h6 span{
+    color: rgb(42, 143, 42);
+}
+.portfolio p{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 40px;
+    font-weight: lighter;
+}
+#p-2{
+    margin-top: 0px;
+}
+.show{
+    height: 40px;
+    width: 150px;
+    color: white;
+    background:rgb(42, 143, 42);
+    border: 2px solid rgb(42, 143, 42);
+    margin-left: 0px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.show:hover{
+    color:rgb(42, 143, 42);
+    background-color: white;
+    border: 2px solid rgb(42, 143, 42);
+    box-shadow: 0px 10px 20px 5px rgb(42, 143, 42);
+}
+
+.portfolio img{
+    width: 80%;
+    margin-top: 20px;
+    border: 1px solid black;
+
+}
+
+
+
+/* Reviews */
+
+
+.reviews header{
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(42, 143, 42);
+    margin-top: 300px;
+    border: 2px solid rgb(42, 143, 42);
+    width: fit-content;
+    padding: 10px 10px;
+}
+.reviews h6{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+}
+#h6-2{
+    margin-top: 0px;
+}
+.reviews h6 span{
+    color: rgb(42, 143, 42);
+}
+
+.img img{
+    width: 400px;
+    height: 180px;
+    margin-top: 60px;
+    border: 2px solid rgb(42, 143, 42);
+    box-shadow: 0px 10px 20px 5px rgb(42, 143, 42);
+}
+
+
+
+/* contact section */
+
+
+.contacts header{
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(42, 143, 42);
+    margin-top: 200px;
+    margin-left: 40%;
+    border: 2px solid rgb(42, 143, 42);
+    width: fit-content;
+    padding: 10px 10px
+}
+.contacts h6{
+    margin-top: 30px;
+    margin-left: 350px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.contacts h6 span{
+    color: rgb(42, 143, 42);
+}
+.contacts p{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 390px;
+    color: rgb(90, 89, 89);
+    font-weight: lighter;
+}
+#pc-2{
+    margin-top: 0px;
+    margin-left: 450px;
+}
+
+.contact-details{
+    margin-top: 80px;
+    position: absolute;
+}
+.contact-details img{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    padding: 20px;
+    margin: 20px 0px;
+}
+.call{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(90, 89, 89);
+    font-weight: lighter;
+    margin-left: 100px;
+    margin-top: -90px;
+}
+.call p{
+    margin-left: 0px;
+    margin-top: 6px;
+    font-weight: bolder;
+}
+.email{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(90, 89, 89);
+    font-weight: lighter;
+    margin-left: 100px;
+    margin-top: -90px;
+}
+.email p{
+    margin-left: 0px;
+    margin-top: 6px;
+    font-weight: bolder;
+}
+.address{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(90, 89, 89);
+    font-weight: lighter;
+    margin-left: 100px;
+    margin-top: -90px;
+}
+.address p{
+    margin-left: 0px;
+    margin-top: 6px;
+    font-weight: bolder;
+}
+
+.inputs{
+    margin-left: 400px;
+    margin-top: -260px;
+}
+#name{
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
+    padding: 10px;
+}
+.inputs2{
+    margin-left: 730px;
+    margin-top: -69px;
+}
+#email{
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
+    padding: 10px;
+}
+.inputs3{
+    margin-left: 730px;
+    margin-top: 0px;
+}
+#phone{
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
+    padding: 10px;
+}
+.inputs4{
+    margin-left: 400px;
+    margin-top: -69px;
+}
+#budget{
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
+    padding: 10px;
+}
+.message{
+    margin-left: 400px;
+}
+#msg{
+    margin-top: 30px;
+    width: 630px;
+    height: 200px;
+}
+.message input ::placeholder{
+    text-align: justify;
+    position:absolute;
+    left: 80px;
+}
+.button button{
+    font-size: 15px;
+    color:white;
+    background-color: rgb(42, 143, 42);
+    border: 1px solid rgb(42, 143, 42);
+    height: 40px;
+    width: 150px;
+    margin-left: 880px;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color: white;
+    color:rgb(42, 143, 42);
+    font-weight: bolder;    
+    box-shadow: 0px 10px 20px 5px rgb(42, 143, 42);
+}
+
+
+/* end */
+
+
+.end-bar{
+    width: 1100px;
+    height:2px;
+    border: 2px solid rgb(90, 89, 89);
+    margin-top: 100px;
+}
+.copy{
+    font-size: 10px;
+    color: rgb(90, 89, 89);
+}
+.copy p{
+    margin-left: 0px;
+}
+
+.logos{
+    margin-left: 300px;
+    padding: 0px -200px;
+}
+.logo1{
+    margin-left: 400px;
+    margin-top: -70px;
+}
+.logo2{
+    margin-left: 480px;
+    margin-top: -120px;
+}
+.logo3{
+    margin-left: 560px;
+    margin-top: -120px;
+}
+.logo4{
+    margin-left:640px;
+    margin-top: -120px;
+}
