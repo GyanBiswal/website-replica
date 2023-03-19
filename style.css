@@ -96,10 +96,10 @@
     border-radius: 4px;
 }
 .contact-me:hover{
-    background-color: white;
+    background-color: white; 
     color: black;
     border: 2px solid rgb(42, 143, 42);
-    cursor: pointer;
+    cursor: pointer; 
 
 }
 .learn-more{
@@ -112,7 +112,13 @@
     cursor: pointer;
 }
 
+
+
+
 /* ACHIEVEMENTS */
+
+
+
 .bar-1{
     height: 10px;
     width: 120px;
